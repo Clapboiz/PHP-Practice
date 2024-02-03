@@ -1,4 +1,5 @@
 # PHP-Practice
+### Một số biến môi trường (superglobals) cơ bản trong PHP
 1. $key: Biến chứa chỉ số hoặc khóa của mảng.
 1. $value: Biến chứa giá trị của phần tử tại chỉ số hoặc khóa tương ứng.
 1. $index: Tên biến khác thường được sử dụng thay thế cho $key, chứa chỉ số hoặc khóa của mảng.
