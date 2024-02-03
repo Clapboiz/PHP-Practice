@@ -39,3 +39,12 @@ echo "<br>foreach with index: <br>";
 foreach ($fruits as $index => $fruit) {
     echo "$index - $fruit <br>";
 }
+
+$person = [
+    "name" => "clap",
+    "age" => "2k3",
+];
+
+foreach ($person as $key => $value) {
+    echo "$key: $value <br>";
+}
