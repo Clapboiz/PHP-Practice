@@ -12,7 +12,7 @@ echo "1" + "2" . "<br>";
 $sum = "1" + "2";
 var_dump($sum);
 
-// define("CONSTANT_NAME", "value_of_constant");
+// define("CONSTANT_NAME", "value_of_constant"); only constant names have no $ in front of name
 define("SERVER_NAME", "localhost");
 define("DATABASE_NAME", "test");
 echo "<br> server: " . SERVER_NAME . ", database: " . DATABASE_NAME;
