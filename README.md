@@ -65,3 +65,6 @@
 + mysqli_query(): Thực hiện một truy vấn SQL.
 + mysqli_fetch_assoc(): Trả về một hàng kết quả dưới dạng mảng kết hợp.
 + PDO: Một lớp để thực hiện các thao tác cơ sở dữ liệu không phụ thuộc vào cơ sở dữ liệu cụ thể.
+
+### array_combine vs array_merge
+Combine nó sẽ gộp theo kiểu key - value , còn merge thì nó sẽ gộp theo kiểu gì cũng được
