@@ -73,7 +73,7 @@ Combine nó sẽ gộp theo kiểu key - value , còn merge thì nó sẽ gộp 
 
 | Đặc Điểm                  | Cookie                               | Session                              |
 |---------------------------|--------------------------------------|--------------------------------------|
-| **Lưu Trữ Nơi Đó**        | Lưu trữ trên máy tính của người dùng | Lưu trữ trên máy chủ                |
+| **Nơi Lưu Trữ**        | Lưu trữ trên máy tính của người dùng | Lưu trữ trên máy chủ                |
 | **An Toàn**               | Dữ liệu có thể bị chỉnh sửa bởi người dùng vì lưu trữ trên máy tính của họ | An toàn hơn vì lưu trữ trên máy chủ, người dùng không thể trực tiếp sửa đổi dữ liệu |
 | **Thời Gian Tồn Tại**      | Có thể có thời gian sống xác định hoặc tồn tại cho đến khi trình duyệt đóng | Tồn tại cho đến khi người dùng đăng xuất hoặc đóng trình duyệt |
 | **Dung Lượng Lưu Trữ**     | Có giới hạn (thường vài KB)           | Không giới hạn, nhưng tùy thuộc vào cấu hình máy chủ |
