@@ -68,3 +68,15 @@
 
 ### array_combine vs array_merge
 Combine nó sẽ gộp theo kiểu key - value , còn merge thì nó sẽ gộp theo kiểu gì cũng được
+
+### Cookies, Sessions
+
+| Đặc Điểm                  | Cookie                               | Session                              |
+|---------------------------|--------------------------------------|--------------------------------------|
+| **Lưu Trữ Nơi Đó**        | Lưu trữ trên máy tính của người dùng | Lưu trữ trên máy chủ                |
+| **An Toàn**               | Dữ liệu có thể bị chỉnh sửa bởi người dùng vì lưu trữ trên máy tính của họ | An toàn hơn vì lưu trữ trên máy chủ, người dùng không thể trực tiếp sửa đổi dữ liệu |
+| **Thời Gian Tồn Tại**      | Có thể có thời gian sống xác định hoặc tồn tại cho đến khi trình duyệt đóng | Tồn tại cho đến khi người dùng đăng xuất hoặc đóng trình duyệt |
+| **Dung Lượng Lưu Trữ**     | Có giới hạn (thường vài KB)           | Không giới hạn, nhưng tùy thuộc vào cấu hình máy chủ |
+| **Truy Cập**               | Dữ liệu có thể truy cập từ cả phía client và server (nếu cần) | Dữ liệu chỉ truy cập từ phía server |
+| **Sử Dụng**               | Thường được sử dụng để lưu trữ thông tin như giữa các lượt truy cập, tuỳ chọn người dùng | Thường được sử dụng để lưu trữ thông tin như thông tin đăng nhập giữa các trang trong một phiên làm việc |
+| **Hiệu Suất**              | Thường nhanh hơn vì dữ liệu lưu trữ trên máy tính của người dùng | Thường đòi hỏi ít băng thông hơn do dữ liệu lưu trữ trên máy chủ |
