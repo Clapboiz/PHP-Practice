@@ -21,7 +21,7 @@ try {
     echo "<br>";
 } finally {
     // Code that will always execute, whether an exception occurs or not
-    echo "Finally block ex1!";
+    echo "Finally block one!";
     echo "<br>";
 }
 
