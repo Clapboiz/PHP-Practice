@@ -80,3 +80,13 @@ Combine nó sẽ gộp theo kiểu key - value , còn merge thì nó sẽ gộp 
 | **Truy Cập**               | Dữ liệu có thể truy cập từ cả phía client và server (nếu cần) | Dữ liệu chỉ truy cập từ phía server |
 | **Sử Dụng**               | Thường được sử dụng để lưu trữ thông tin như giữa các lượt truy cập, tuỳ chọn người dùng | Thường được sử dụng để lưu trữ thông tin như thông tin đăng nhập giữa các trang trong một phiên làm việc |
 | **Hiệu Suất**              | Thường nhanh hơn vì dữ liệu lưu trữ trên máy tính của người dùng | Thường đòi hỏi ít băng thông hơn do dữ liệu lưu trữ trên máy chủ |
+
+
+### Getter vs setter
+
+|    | Getter                                           | Setter                                         |
+|----|--------------------------------------------------|------------------------------------------------|
+| Mục đích | Được sử dụng để đọc giá trị của thuộc tính   | Được sử dụng để ghi giá trị cho thuộc tính    |
+| Tên phương thức | Thường theo mẫu "getPropertyName" hoặc "isPropertyName" (đối với kiểu boolean) | Thường theo mẫu "setPropertyName"         |
+| Ví dụ (Python) | ```python class Person: def __init__(self, name): self._name = name def get_name(self): return self._name ``` | ```python class Person: def __init__(self, name): self._name = name def set_name(self, new_name): self._name = new_name ``` |
+| Ví dụ (PHP) | ```php class Person { private $name; public function __construct($name) { $this->name = $name; } public function getName() { return $this->name; } } ``` | ```php class Person { private $name; public function __construct($name) { $this->name = $name; } public function setName($newName) { $this->name = $newName; } } ``` |
