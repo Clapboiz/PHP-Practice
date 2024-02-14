@@ -1,5 +1,6 @@
 <?php
-require 'components/header.php';
+// require 'components/header.php';
+require(__DIR__ . "/components/header.php");
 ?>
 
 <form action="" class="form__container" style=" width: 700px; 

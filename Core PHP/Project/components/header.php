@@ -1,4 +1,8 @@
 <?php
+// include("./configurations/database.php");
+// include(__DIR__ . "/configurations/database.php");
+include(__DIR__ . "/../configurations/database.php");
+echo "<br>";
 echo "This is project";
 ?>
 
