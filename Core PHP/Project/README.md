@@ -9,3 +9,13 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+### CONNECT TO DB
+
+`D:\Set up app\Xampp\mysql`
+
++ If you want mysql to work then you use command
+
+`set path=%PATH%;D:\Set up app\Xampp\mysql\bin;`
+
+`mysql -u root -p`
